@@ -39,7 +39,8 @@ const translations = {
         // Footer
         footerSocial: "Redes Sociais",
         footerResumeBtn: "Confira meu Currículo!",
-        footerRights: "Direitos Reservados a"
+        footerRights: "Direitos Reservados a",
+        resumeFile: "src/assets/docs/Curriculo-PT.pdf"
     },
     en: {
         // Navigation
@@ -81,7 +82,8 @@ const translations = {
         // Footer
         footerSocial: "Social Networks",
         footerResumeBtn: "Check out my Resume!",
-        footerRights: "All Rights Reserved to"
+        footerRights: "All Rights Reserved to",
+        resumeFile: "src/assets/docs/Resume-EN.pdf"
     },
     es: {
         // Navigation
@@ -124,7 +126,8 @@ const translations = {
         // Footer
         footerSocial: "Redes Sociales",
         footerResumeBtn: "¡Consulta mi Currículum!",
-        footerRights: "Todos los Derechos Reservados a"
+        footerRights: "Todos los Derechos Reservados a",
+        resumeFile: "src/assets/docs/Curriculum-ES.pdf"
     }
 };
 
@@ -197,6 +200,12 @@ function applyTranslations(lang) {
     
     const footerRights = document.querySelector('[data-i18n="footerRights"]');
     if (footerRights) footerRights.innerHTML = t.footerRights;
+    
+    // Atualizar o link do currículo
+    const resumeLink = document.querySelector('[data-i18n="resumeLink"]');
+    if (resumeLink && t.resumeFile) {
+        resumeLink.href = t.resumeFile;
+    }
     
     // Atualizar o select de idioma
     const languageSelect = document.querySelector('.language-selection');
