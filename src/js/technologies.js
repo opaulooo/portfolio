@@ -16,24 +16,19 @@ const technologies = [
         width: '50%'
     },
     {
+        name: 'NodeJS',
+        src: 'src/assets/icons/techs/nodejs.svg',
+        width: '60%'
+    },
+    {
         name: 'MySQL',
         src: 'src/assets/icons/techs/mysql.svg',
         width: '50%'
     },
     {
-        name: 'Docker',
-        src: 'src/assets/icons/techs/docker.svg',
+        name: 'MongoDb',
+        src: 'src/assets/icons/techs/mongodb.svg',
         width: '50%'
-    },
-    {
-        name: 'AWS',
-        src: 'src/assets/icons/techs/aws.svg',
-        width: '50%'
-    },
-    {
-        name: 'NodeJS',
-        src: 'src/assets/icons/techs/nodejs.svg',
-        width: '60%'
     },
     {
         name: 'React',
@@ -51,8 +46,18 @@ const technologies = [
         width: '50%'
     },
     {
-        name: 'Python',
-        src: 'src/assets/icons/techs/python.svg',
+        name: 'Docker',
+        src: 'src/assets/icons/techs/docker.svg',
+        width: '50%'
+    },
+    {
+        name: 'AWS',
+        src: 'src/assets/icons/techs/aws.svg',
+        width: '50%'
+    },
+    {
+        name: 'Azure',
+        src: 'src/assets/icons/techs/azure.svg',
         width: '50%'
     }
 ];
