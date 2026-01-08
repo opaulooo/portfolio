@@ -36,7 +36,7 @@ const translations = {
 
         // Hobbies Section
         hobbyTitle: "Hobbies",
-        hobbyText: "Gosto de aprender novas tecnologias e aprimorar aquelas com as quais já tive contato, como Angular, IONIC e NodeJS. Fora do ambiente profissional, sou entusiasta de animes, mangás e jogos online, como Counter Strike, Minecraft e GTA. Além disso, tenho um hobby diferente da área de tecnologia: gosto de arranhar meu violino há alguns anos.",
+        hobbyText: "Gosto de aprender novas tecnologias e aprimorar aquelas com as quais já tive contato, como Angular, IONIC e NodeJS. Fora do ambiente profissional, sou entusiasta de animes, mangás e jogos online, como Counter Strike, Minecraft e GTA. Além disso, tenho um hobby diferente da área de tecnologia: gosto de arranhar meu violino há alguns anos e nos últimos anos tenho sofrido no Crossfit.",
 
         // Portfolio Section
         portfolioTitle: "Portfólio",
@@ -85,7 +85,7 @@ const translations = {
 
         // Hobbies Section
         hobbyTitle: "Hobbies",
-        hobbyText: "I enjoy learning new technologies and improving those I have already worked with, such as Angular, IONIC and NodeJS. Outside the professional environment, I am an enthusiast of anime, manga and online games, such as Counter Strike, Minecraft and GTA. In addition, I have a hobby outside the technology field: I have been playing the violin for a few years.",
+        hobbyText: "I enjoy learning new technologies and improving those I have already worked with, such as Angular, IONIC, and NodeJS. Outside the professional environment, I am an enthusiast of anime, manga, and online games such as Counter-Strike, Minecraft, and GTA. In addition, I have a hobby outside the technology field: I have been trying to play the violin for a few years, and in recent years I have been pushing myself in CrossFit.",
 
         // Portfolio Section
         portfolioTitle: "Portfolio",
@@ -134,7 +134,7 @@ const translations = {
 
         // Hobbies Section
         hobbyTitle: "Pasatiempos",
-        hobbyText: "Me gusta aprender nuevas tecnologías y mejorar aquellas con las que ya he trabajado, como Angular, IONIC y NodeJS. Fuera del entorno profesional, soy entusiasta del anime, manga y los juegos en línea, como Counter Strike, Minecraft y GTA. Además, tengo un pasatiempo fuera del área de la tecnología: toco el violín desde hace algunos años.",
+        hobbyText: "Me gusta aprender nuevas tecnologías y mejorar aquellas con las que ya he tenido contacto, como Angular, IONIC y NodeJS. Fuera del entorno profesional, soy entusiasta del anime, el manga y los juegos en línea, como Counter-Strike, Minecraft y GTA. Además, tengo un hobby fuera del área tecnológica: llevo algunos años intentando tocar el violín y, en los últimos años, he estado sufriendo en CrossFit.",
 
         // Portfolio Section
         portfolioTitle: "Portafolio",
