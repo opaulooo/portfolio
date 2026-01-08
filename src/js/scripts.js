@@ -54,17 +54,34 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
+// Inicializar traduções quando o DOM estiver pronto
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initializeLanguage);
+} else {
+    initializeLanguage();
+}
+
 i = 0;
-var width = screen.width;
 
 function createBubble() {
     const animatedsection = document.querySelector("animatedsection");
+    if (!animatedsection) return;
+
     const createElement = document.createElement("span");
     var size = Math.random() * 20;
+
+    // Usar as dimensões do container animatedsection
+    const containerWidth = animatedsection.offsetWidth;
+    const maxBubbleSize = 100 + size;
+
     createElement.style.animation = "animation 20s linear infinite";
-    createElement.style.width = 100 + size + "px";
-    createElement.style.height = 100 + size + "px";
-    createElement.style.left = Math.random() * innerWidth + "px";
+    createElement.style.width = maxBubbleSize + "px";
+    createElement.style.height = maxBubbleSize + "px";
+
+    // Garantir que a bolha não ultrapasse os limites do container
+    const maxLeft = containerWidth - maxBubbleSize;
+    createElement.style.left = Math.random() * Math.max(0, maxLeft) + "px";
+
     animatedsection.appendChild(createElement);
 
     setTimeout(() => {
