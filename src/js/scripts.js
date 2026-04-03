@@ -90,3 +90,24 @@ function createBubble() {
 }
 setInterval(createBubble, 350);
 
+// ============================================================
+// Gallery: swap main image when clicking a thumbnail
+// ============================================================
+function setMainImage(targetId, thumbEl) {
+    const mainImg = document.getElementById(targetId);
+    if (mainImg) {
+        mainImg.style.opacity = '0';
+        mainImg.src = thumbEl.src;
+        mainImg.onload = function () { mainImg.style.opacity = '1'; };
+        // Fallback in case onload doesn't fire (e.g. cached image)
+        setTimeout(function () { mainImg.style.opacity = '1'; }, 100);
+    }
+    const thumbsContainer = thumbEl.closest('.gallery-thumbs');
+    if (thumbsContainer) {
+        thumbsContainer.querySelectorAll('.gallery-thumb').forEach(function (t) {
+            t.classList.remove('active');
+        });
+    }
+    thumbEl.classList.add('active');
+}
+

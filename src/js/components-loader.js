@@ -24,7 +24,8 @@ async function loadAllComponents() {
         { name: 'technologies', target: 'technologies-container' },
         { name: 'hobbies', target: 'hobbies-container' },
         { name: 'portfolio', target: 'portfolio-container' },
-        { name: 'footer', target: 'footer-container' }
+        { name: 'footer', target: 'footer-container' },
+        { name: 'modals/stockflow-modal', target: 'modals-container' }
     ];
 
     // Carregar todos os componentes em paralelo

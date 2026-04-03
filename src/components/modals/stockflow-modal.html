@@ -1,0 +1,82 @@
+<!-- StockFlow Project Modal -->
+<div class="modal fade" id="stockflowModal" tabindex="-1" aria-labelledby="stockflowModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content border-0 shadow-lg">
+
+            <!-- Modal Header -->
+            <div class="modal-header bg-dark text-white border-0 py-3">
+                <h5 class="modal-title fw-bold fs-4" id="stockflowModalLabel">
+                    <i class="fas fa-boxes me-2 text-danger"></i>StockFlow
+                </h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Modal Body -->
+            <div class="modal-body p-0 bg-dark">
+
+                <!-- Gallery Section -->
+                <div class="project-gallery d-flex">
+
+                    <!-- Side Thumbnails -->
+                    <div class="gallery-thumbs d-flex flex-column">
+                        <img class="gallery-thumb active"
+                            src="src/assets/img/stockflow/stockflow-1.png"
+                            alt="StockFlow - imagem 1"
+                            onclick="setMainImage('stockflow-main', this)" />
+                        <img class="gallery-thumb"
+                            src="src/assets/img/stockflow/stockflow-2.png"
+                            alt="StockFlow - imagem 2"
+                            onclick="setMainImage('stockflow-main', this)" />
+                        <img class="gallery-thumb"
+                            src="src/assets/img/stockflow/stockflow-3.png"
+                            alt="StockFlow - imagem 3"
+                            onclick="setMainImage('stockflow-main', this)" />
+                        <img class="gallery-thumb"
+                            src="src/assets/img/stockflow/stockflow-4.png"
+                            alt="StockFlow - imagem 4"
+                            onclick="setMainImage('stockflow-main', this)" />
+                        <img class="gallery-thumb"
+                            src="src/assets/img/stockflow/stockflow-5.png"
+                            alt="StockFlow - imagem 5"
+                            onclick="setMainImage('stockflow-main', this)" />
+                    </div>
+
+                    <!-- Main Image -->
+                    <div class="gallery-main flex-grow-1 d-flex align-items-center justify-content-center">
+                        <img id="stockflow-main"
+                            class="gallery-main-img"
+                            src="src/assets/img/stockflow/stockflow-1.png"
+                            alt="StockFlow - preview principal" />
+                    </div>
+
+                </div>
+
+                <!-- Project Info -->
+                <div class="p-4 bg-white">
+                    <h4 class="fw-bold mb-1">StockFlow</h4>
+                    <span class="badge bg-warning text-dark mb-3">Projeto em progresso</span>
+                    <p class="text-muted mb-3" data-i18n="stockflowDesc"></p>
+
+                    <div class="d-flex flex-wrap gap-2 align-items-center">
+                        <span class="badge bg-danger px-3 py-2 fs-6">
+                            <i class="fas fa-layer-group me-1"></i>Stack
+                        </span>
+                        <span class="badge bg-dark px-3 py-2">Angular</span>
+                        <span class="badge bg-secondary px-3 py-2">.NET</span>
+                        <span class="badge bg-primary px-3 py-2">SQL Server</span>
+                    </div>
+
+                    <div class="mt-4">
+                        <a href="https://stockflow.paulo-victor.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn btn-danger">
+                            <i class="fas fa-external-link-alt me-2"></i>Acessar StockFlow
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

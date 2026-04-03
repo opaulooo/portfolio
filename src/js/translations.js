@@ -40,6 +40,7 @@ const translations = {
 
         // Portfolio Section
         portfolioTitle: "Portfólio",
+        stockflowDesc: "Sistema de gerenciamento de estoque desenvolvido com Angular no front-end e .NET no back-end. O projeto esta em progresso e ja conta com controle de produtos, entradas e saidas, relatorios e dashboards em tempo real.",
 
         // Footer
         footerSocial: "Redes Sociais",
@@ -89,6 +90,7 @@ const translations = {
 
         // Portfolio Section
         portfolioTitle: "Portfolio",
+        stockflowDesc: "Inventory management system developed with Angular on the front-end and .NET on the back-end. The project is currently in progress and already includes product management, stock entries and exits, reports, and real-time dashboards.",
 
         // Footer
         footerSocial: "Social Networks",
@@ -138,6 +140,7 @@ const translations = {
 
         // Portfolio Section
         portfolioTitle: "Portafolio",
+        stockflowDesc: "Sistema de gestion de inventario desarrollado con Angular en el front-end y .NET en el back-end. El proyecto esta en progreso y ya permite gestion de productos, entradas y salidas de stock, informes y paneles en tiempo real.",
 
         // Footer
         footerSocial: "Redes Sociales",
@@ -207,6 +210,9 @@ function applyTranslations(lang) {
     // Portfolio Section
     const portfolioTitle = document.querySelector('[data-i18n="portfolioTitle"]');
     if (portfolioTitle) portfolioTitle.innerHTML = t.portfolioTitle;
+
+    const stockflowDesc = document.querySelector('[data-i18n="stockflowDesc"]');
+    if (stockflowDesc) stockflowDesc.innerHTML = t.stockflowDesc;
 
     // Footer
     const footerSocial = document.querySelector('[data-i18n="footerSocial"]');
