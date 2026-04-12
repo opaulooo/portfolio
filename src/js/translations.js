@@ -41,12 +41,13 @@ const translations = {
         // Portfolio Section
         portfolioTitle: "Portfólio",
         stockflowDesc: "Sistema de gerenciamento de estoque desenvolvido com Angular no front-end e .NET no back-end. O projeto esta em progresso e ja conta com controle de produtos, entradas e saidas, relatorios e dashboards em tempo real.",
+        spendlistDesc: "Aplicativo de gerenciamento de compras desenvolvido com React no front-end e .NET no back-end. O projeto está em progresso e já conta com funcionalidades de lista de compras, produtos, marcas, categorias e relatórios.",
 
         // Footer
         footerSocial: "Redes Sociais",
         footerResumeBtn: "Confira meu Currículo!",
         footerRights: "Direitos Reservados a",
-        resumeFile: "src/assets/docs/Curriculo.pdf"
+        resumeFile: "src/assets/docs/Paulo_Victor_Curriculo.pdf"
     },
 
     en: {
@@ -96,7 +97,7 @@ const translations = {
         footerSocial: "Social Networks",
         footerResumeBtn: "Check out my Resume!",
         footerRights: "All Rights Reserved to",
-        resumeFile: "src/assets/docs/Resume.pdf"
+        resumeFile: "src/assets/docs/Paulo_Victor_Resume.pdf"
     },
 
     es: {
@@ -146,7 +147,7 @@ const translations = {
         footerSocial: "Redes Sociales",
         footerResumeBtn: "¡Consulta mi Currículum!",
         footerRights: "Todos los Derechos Reservados a",
-        resumeFile: "src/assets/docs/Curriculum.pdf"
+        resumeFile: "src/assets/docs/Paulo_Victor_Curriculo.pdf"
     }
 };
 
